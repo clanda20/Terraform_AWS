@@ -1,11 +1,17 @@
 # Terraform_AWS
-Instructions.
+Basic Setup.
 
-In the terminal, use this, $ git clone https://github.com/clanda20/Terraform_AWS.git all the needed files are there.
+1. In the terminal, use this, $ git clone https://github.com/clanda20/Terraform_AWS.git all the needed files are there.
+
+2. Using your credentials login your AWS access portal URL: https://d-xxxxx.awsapps.com/start/
+
+3. Once login  go click on "Command line or programming access" on the AdminstrarorAccess page and copy your credential.  Follow instructions there. 
+4. Paste the credentials on your terminal.
+
+5. Now back into the AdministrorAccess page and now click on "Management console"  that you will use later on. 
 
 
-
-Creating  UC2
+Creating UC2.
 
 1. Go to the subdirectory with uc2 name. 
  -Very that the key_name in line 58 correspondes to your key_name that you have previously created on EC2 > Key Pairs.  

@@ -17,7 +17,7 @@ provider "aws" {
 variable "vpc_id" {}
 
 resource "aws_security_group" "drines_ucsc_test" {
-  name = "drines_test_ec2_access1"
+  name = "drines_test_ec2_access"
   vpc_id = var.vpc_id
   
   tags = {

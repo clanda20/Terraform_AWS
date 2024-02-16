@@ -39,7 +39,7 @@ resource "aws_security_group" "drines_ucsc_test" {
   }
 }
 
-data "aws_ami" "debian-11" {
+data "aws_ami" "debian-12" {
   most_recent = true
 
   filter {
@@ -52,7 +52,7 @@ data "aws_ami" "debian-11" {
 
 
 resource "aws_instance" "app_server" {
-  ami           = data.aws_ami.debian-11.id
+  ami           = data.aws_ami.debian-12.id
   instance_type = "t2.micro"
   vpc_security_group_ids = [aws_security_group.drines_ucsc_test.id]
   key_name = "testing_aws_key"

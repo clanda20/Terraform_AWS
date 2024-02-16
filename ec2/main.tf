@@ -44,7 +44,7 @@ data "aws_ami" "debian-11" {
 
   filter {
     name = "name"
-    values = ["debian-11-amd64-*"]
+    values = ["debian-12-amd64-*"]
   }
 
   owners = ["136693071363"]
